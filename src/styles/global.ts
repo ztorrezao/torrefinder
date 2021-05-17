@@ -34,6 +34,21 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
 
+  button {
+    color: ${colors.black};
+    background-color: ${colors.primary};
+    font-family: 'Ubuntu';
+    border: none;
+    border-radius: 9px;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      background-color: ${lightenDarkenColor(colors.primary, -9)};
+      cursor: pointer;
+    }
+    
+  }
+
   h1 {
     font-size: ${fonts.xl};
   }
