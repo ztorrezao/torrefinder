@@ -19,16 +19,16 @@ export default createGlobalStyle`
   }
 
   #root {
-    background-color: ${colors.light};
+    background-color: ${colors.black};
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
-    height: 100vh;
+    height: 100vh; 
   }
 
   /* fonts */
   body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-size: ${fonts.md};
     color: ${colors.light};
     -webkit-font-smoothing: antialiased;

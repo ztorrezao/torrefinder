@@ -3,9 +3,9 @@ const colors = {
   success: '#70BC41',
   primary: '#CDDC39',
   gray: '#9C9CA9',
-  mediumDarkGray: '#27292D',
-  darkGray: '#0E0F10',
-  black: '#474B52',
+  mediumDarkGray: '#474B52',
+  darkGray: '#27292D',
+  black: '#0E0F10',
 };
 
 export const lightenDarkenColor = (col: string, amt: number) => {
