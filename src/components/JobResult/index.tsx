@@ -3,30 +3,25 @@ import { ResultContainer } from './styles';
 import { IoSearch } from 'react-icons/io5';
 import { colors } from '../../styles';
 
-function JobResult(props: any) {
-  const {} = props;
+function JobResult({job, handleOnJobClick}: any) {
+  const {objective, type, organizations, locations, compensation} = job;
+
 
   return (
-    <ResultContainer>
+    <ResultContainer onClick={() => handleOnJobClick(job)}>
       <div>
-        <img src='' alt='image' className='image' />
+        <img src={organizations[0].picture} alt={organizations[0].name} className='image' />
       </div>
       <div className='description'>
         <div className='info'>
-          <h6>Job title</h6>
-          <p>Job conditions</p>
+          <h6>{objective}</h6>
+          <p>{type}</p>
           <p>
-            <strong>Company</strong>
+            <strong>{organizations[0].name}</strong>
           </p>
-          <p>Location</p>
+          <p>{locations[0]}</p>
           <p>
-            USD$ <span className='strong'>30K - 40K</span> /year
-          </p>
-        </div>
-        <div className='rates'>
-          <p>You'd rank:</p>
-          <p>
-            <span className='strong'>5th</span> /16
+            {compensation.data.currency} <span className='strong'>{compensation.data.minAmount} {compensation.data.code === 'range'? '-' : ''} {compensation.data.maxAmount}</span> /{compensation.data.periodicity}
           </p>
         </div>
       </div>

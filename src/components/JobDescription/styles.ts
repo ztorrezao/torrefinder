@@ -35,7 +35,9 @@ export const DescriptionContainer = styled.div`
 
     .image {
       width: 69px;
-      height: auto;
+      height: 69px;
+      max-width: 69px;
+    max-height: 69px;
       border-radius: 50%;
       overflow: hidden;
       margin-top: -45px;
@@ -65,6 +67,8 @@ export const DescriptionContainer = styled.div`
       padding: 12px 18px;
       display: flex;
       align-items: center;
+      min-width: 123px;
+
     }
   }
 

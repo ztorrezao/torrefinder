@@ -8,13 +8,13 @@ import { colors } from '../../styles';
 
 function Search(props: any) {
   setConfiguration({ containerWidths: [540, 740, 960, 1186, 1540] });
-  const {placeholder, searchHandler} = props;
+  const {placeholder, handleSearch} = props;
 
   return (
     <SearchContainer>
       <IoSearch size={24} color={colors.mediumDarkGray} />
       <input placeholder={placeholder}/>
-      <button onClick={()=> searchHandler()}>Search</button>
+      <button onClick={()=> handleSearch()}>Search</button>
     </SearchContainer>
   );
 }

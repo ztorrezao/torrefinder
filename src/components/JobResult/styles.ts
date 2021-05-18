@@ -22,7 +22,9 @@ export const ResultContainer = styled.div`
 
   .image {
     width: 45px;
-    height: auto;
+    height: 45px;
+    max-width: 45px;
+    max-height: 45px;
     border-radius: 50%;
     overflow: hidden;
   }
@@ -32,6 +34,7 @@ export const ResultContainer = styled.div`
     flex-direction:row;
     justify-content: space-between;
     width: 100%;
+    margin-left: 15px;
   }
 
   .rates {
