@@ -6,7 +6,7 @@ import logo from '../../assets/logo.svg';
 import { colors } from '../../styles';
 
 
-function Header(props: any) {
+function Search(props: any) {
   setConfiguration({ containerWidths: [540, 740, 960, 1186, 1540] });
   const {placeholder, searchHandler} = props;
 
@@ -19,4 +19,4 @@ function Header(props: any) {
   );
 }
 
-export default Header;
+export default Search;

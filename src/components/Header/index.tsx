@@ -14,7 +14,7 @@ function Header() {
 
           <Navigation>
             <a className="active" href='#'><IoBriefcase className="icon" size={18} /> Job search</a>
-            <a href='#'><IoPeople size={18}  className="icon" /> People search</a>
+            {/* <a href='#'><IoPeople size={18}  className="icon" /> People search</a> */}
           </Navigation>
         </Row>
       </Container>
