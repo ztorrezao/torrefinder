@@ -1,46 +1,97 @@
-# Getting Started with Create React App
+# torrefinder
+<p align="center">
+    <img alt="torrefinder" title="#torrefinder" src="https://repository-images.githubusercontent.com/367792629/8263d680-b7a5-11eb-8c2c-251abbc5da6d" />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h4 align="center"> 
+	🚧  Content 🚧
+</h4>
 
-In the project directory, you can run:
+<p align="center">
+ <a href="#-sobre-o-projeto">About</a> •
+ <a href="#-funcionalidades">Functionalities</a> •
+ <a href="#-como-executar-o-projeto">How to run</a> • 
+ <a href="#-tecnologias">Tech-stack</a> • 
+ <a href="#-autor">Author</a> • 
+</p>
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 💻 About
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**Torrefider** is an application to search for job opportunities.
+This project was developed as part of a challenge to apply for the internship position at Torre Labs [Torre Labs](https://torre.co).
 
-### `yarn test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Functionalities
 
-### `yarn build`
+- [x] Job search
+- [x] Single job visualization
+- [ ] People search
+- [ ] Single people visualization
+- [ ] Apply for vacancies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 How to run
 
-### `yarn eject`
+### Requirements
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+For the execution of this project on a local machine, the following tools are needed:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Added to this is recommended a good code editor like [VSCode](https://code.visualstudio.com/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### 🧭 Executing the app
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
 
-## Learn More
+# Clone the repository
+$ git clone https://github.com/ztorrezao/torrefinder.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Open the torrefinder folder on your terminal/cmd
+$ cd torrefinder
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Install the packages
+$ yarn install
+
+# Execute the application
+$ yarn start
+
+# The application will run on port:3000 - acesse http://localhost:3000/
+
+```
+
+---
+
+## 🛠 Tech-stack
+
+
+-   React.js
+-   Node
+-   file-saver
+-   styled-components
+-   typescript
+-   RestAPI
+
+> Veja o arquivo  [package.json](https://github.com/ztorrezao/torrefinder/blob/master/package.json)
+
+
+-   Protótipo:  **[Figma](https://www.figma.com/)**
+
+
+## 🦸 Author
+
+<a href="https://www.linkedin.com/in/ztorrezao/">
+ <img style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/13769987" width="100px;" alt=""/>
+ <br />
+ <sub><b>Zacarias Jorge Torrezaão</b></sub></a> <a href="https://www.linkedin.com/in/ztorrezao/"></a>
+ <br />
+
+---
+
+Made with ❤️ by Zacarias Jorge Torrezão. 📧 [Entre em contacto!](mailto:zacarias@torrezao.com)
+
+---
